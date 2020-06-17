@@ -1,0 +1,21 @@
+
+# Binários para programas e plugins
+* .exe
+* .exe ~
+* .dll
+* .so
+* .dylib
+
+# Teste binário, construído com `go test -c`
+* .test
+
+# Saída da ferramenta de cobertura go, especificamente quando usada com o LiteIDE
+* .out
+
+# Diretórios de dependência (remova o comentário abaixo para incluí-lo)
+# vendor /
+
+# ignorando todos os  arquivos dentro da pasta e a pasta 
+AULA_JQUERY_AJAX/bootstrap/*
+AULA_JQUERY_AJAX/bootstrap/
+AULA_JQUERY_AJAX/js/jquery-3.5.1.min.js
